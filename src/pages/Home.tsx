@@ -73,13 +73,49 @@ export default function Home() {
           transition={{ delay: 1, duration: 1 }}
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
         >
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className="text-white text-sm tracking-widest"
-          >
-            SCROLL
-          </motion.div>
+
+
+
+
+
+
+       {/*    <motion.div
+  animate={{ y: [0, 15, 0] }}
+  transition={{ duration: 1.5, repeat: Infinity }}
+  className="text-white flex flex-col items-center gap-1"
+>
+  <span className="text-xs tracking-widest uppercase opacity-80">
+    Descubre más
+  </span>
+  <span className="text-2xl">⬇️</span>
+</motion.div> */}
+
+
+
+
+
+<motion.div
+  animate={{ y: [0, 12, 0] }}
+  transition={{ duration: 1.4, repeat: Infinity }}
+  className="flex justify-center"
+>
+  <svg
+    className="w-6 h-6 text-white opacity-80"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    viewBox="0 0 24 24"
+  >
+    <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7-7-7M12 21V3" />
+  </svg>
+</motion.div>
+
+
+
+
+
+
+
         </motion.div>
       </section>
 
