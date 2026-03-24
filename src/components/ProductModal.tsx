@@ -14,7 +14,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
   const handleWhatsApp = () => {
     const message = `Hola, estoy interesado en este producto: ${product.name}`;
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/610498900?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/+34610498900?text=${encodedMessage}`, '_blank');
   };
 
   return (

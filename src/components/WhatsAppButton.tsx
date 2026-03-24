@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 export default function WhatsAppButton() {
   const handleClick = () => {
     window.open(
-      'https://wa.me/610498900?text=Hola,%20estoy%20interesado%20en%20RampageGym',
+      'https://wa.me/+34610498900?text=Hola,%20estoy%20interesado%20en%20RampageGym',
       '_blank'
     );
   };
