@@ -36,7 +36,7 @@ export default function Shop() {
 
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              { label: 'TODO', value: 'all' },
+              { label: 'ALL', value: 'all' },
               { label: 'HOMBRE', value: 'men' },
               { label: 'MUJER', value: 'women' },
             ].map((option) => (
