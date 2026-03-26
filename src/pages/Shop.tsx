@@ -8,7 +8,7 @@ import { Product } from '../types';
 export default function Shop() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [filter, setFilter] = useState<'all' | 'men' | 'women'>('all');
+  const [filter, setFilter] = useState<'all' | 'men' | 'women' | 'accessories'>('all');
 
   const filteredProducts = filter === 'all'
     ? products
@@ -39,17 +39,17 @@ export default function Shop() {
               { label: 'ALL', value: 'all' },
               { label: 'HOMBRE', value: 'men' },
               { label: 'MUJER', value: 'women' },
+              { label: 'ACCESORIOS', value: 'accessories' },
             ].map((option) => (
               <motion.button
                 key={option.value}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => setFilter(option.value as 'all' | 'men' | 'women')}
-                className={`px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-sm md:text-base tracking-wider transition-all ${
-                  filter === option.value
+                onClick={() => setFilter(option.value as 'all' | 'men' | 'women' | 'accessories')}
+                className={`px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-sm md:text-base tracking-wider transition-all ${filter === option.value
                     ? 'bg-white text-black'
                     : 'border-2 border-gray-600 text-gray-400 hover:border-white hover:text-white'
-                }`}
+                  }`}
               >
                 {option.label}
               </motion.button>

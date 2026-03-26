@@ -96,5 +96,29 @@ export const products: Product[] = [
     image: '/cooming-soon.webp',
     description: 'Tank top energético. Máxima libertad de movimiento y estilo único.',
     category: 'women'
-  }
+  },
+  {
+  id: 13,
+  name: 'Cinturón Powerlifting',
+  price: 39.99,
+  image: '/foto13.jpg',
+  description: 'Cinturón de levantamiento para máxima estabilidad en sentadilla y peso muerto.',
+  category: 'accessories'
+},
+{
+  id: 14,
+  name: 'Guantes Gym Pro',
+  price: 19.99,
+  image: '/foto14.webp',
+  description: 'Guantes antideslizantes para mejor agarre y protección.',
+  category: 'accessories'
+},
+{
+  id: 15,
+  name: 'Botella Deportiva',
+  price: 12.99,
+  image: '/foto15.webp',
+  description: 'Botella resistente para mantenerte hidratado durante tus entrenamientos.',
+  category: 'accessories'
+}
 ];
