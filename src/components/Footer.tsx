@@ -39,26 +39,26 @@ export default function Footer() {
             <h3 className="text-white font-bold text-lg mb-4 tracking-wide">SÍGUENOS</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.instagram.com/rampagegym_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram size={20} className="text-white" />
               </a>
-              <a
+             {/*  <a
                 href="#"
                 className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook size={20} className="text-white" />
-              </a>
-              <a
+              </a> */}
+            {/*   <a
                 href="#"
                 className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter size={20} className="text-white" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
