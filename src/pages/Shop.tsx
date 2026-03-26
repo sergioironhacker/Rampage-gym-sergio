@@ -8,7 +8,7 @@ import { Product } from '../types';
 export default function Shop() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [filter, setFilter] = useState<'all' | 'men' | 'women' | 'accessories'>('all');
+  const [filter, setFilter] = useState<'all' | 'men' | 'women' | 'accessories' | 'caps'>('all');
 
   const filteredProducts = filter === 'all'
     ? products
@@ -40,6 +40,7 @@ export default function Shop() {
               { label: 'HOMBRE', value: 'men' },
               { label: 'MUJER', value: 'women' },
               { label: 'ACCESORIOS', value: 'accessories' },
+              { label: 'GORRAS', value: 'caps' },
             ].map((option) => (
               <motion.button
                 key={option.value}
@@ -47,8 +48,8 @@ export default function Shop() {
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setFilter(option.value as 'all' | 'men' | 'women' | 'accessories')}
                 className={`px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-sm md:text-base tracking-wider transition-all ${filter === option.value
-                    ? 'bg-white text-black'
-                    : 'border-2 border-gray-600 text-gray-400 hover:border-white hover:text-white'
+                  ? 'bg-white text-black'
+                  : 'border-2 border-gray-600 text-gray-400 hover:border-white hover:text-white'
                   }`}
               >
                 {option.label}

@@ -61,7 +61,7 @@ export const products: Product[] = [
     id: 8,
     name: 'High-Waist Shorts',
     price: 37.99,
-    image: '/cooming-soon.webp',
+    image: '/foto8g.jpeg',
     description: 'Shorts de cintura alta. Diseño que estiliza y proporciona soporte total.',
     category: 'women'
   },
@@ -77,7 +77,7 @@ export const products: Product[] = [
     id: 10,
     name: 'Oversized Hoodie',
     price: 59.99,
-    image: '/cooming-soon.webp',
+    image: '/foto10g.jpeg',
     description: 'Sudadera oversized para mujer. Estilo relajado con actitud deportiva.',
     category: 'women'
   },
@@ -93,7 +93,7 @@ export const products: Product[] = [
     id: 12,
     name: 'Energy Tank',
     price: 31.99,
-    image: '/cooming-soon.webp',
+    image: '/foto12.jpeg',
     description: 'Tank top energético. Máxima libertad de movimiento y estilo único.',
     category: 'women'
   },
@@ -120,5 +120,29 @@ export const products: Product[] = [
   image: '/foto15.webp',
   description: 'Botella resistente para mantenerte hidratado durante tus entrenamientos.',
   category: 'accessories'
+},
+{
+  id: 16,
+  name: 'Rampage Cap Black',
+  price: 19.99,
+  image: '/gorra1.jpeg',
+  description: 'Gorra premium estilo gym. Ajuste perfecto y diseño minimal.',
+  category: 'caps'
+},
+{
+  id: 17,
+  name: 'Gym Warrior Cap',
+  price: 21.99,
+  image: '/gorra2.jpeg',
+  description: 'Gorra deportiva transpirable para entrenos intensos.',
+  category: 'caps'
+},
+{
+  id: 18,
+  name: 'Street Fitness Cap',
+  price: 18.99,
+  image: '/cooming-soon.webp',
+  description: 'Estilo urbano + gym. Perfecta para diario.',
+  category: 'caps'
 }
 ];
