@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <img src="/logorg.png" alt="RampageGym" className="h-12 md:h-16 mb-4" />
             <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-md">
-              No es solo ropa. Es mentalidad. Diseñado para los que no se rinden.
+              No es solo ropa. Es mentalidad. Diseñado para los que no se rindeen.
             </p>
           </div>
 
